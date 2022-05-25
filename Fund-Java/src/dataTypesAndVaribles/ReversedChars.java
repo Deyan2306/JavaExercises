@@ -10,6 +10,6 @@ public class ReversedChars {
         char secondSymbol = scanner.nextLine().charAt(0);
         char thirdSymbol = scanner.nextLine().charAt(0);
 
-        System.out.printf("%c%c%c", thirdSymbol, secondSymbol, firstSymbol);
+        System.out.printf("%c %c %c", thirdSymbol, secondSymbol, firstSymbol);
     }
 }
