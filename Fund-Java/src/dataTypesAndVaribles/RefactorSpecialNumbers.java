@@ -16,9 +16,9 @@ public class RefactorSpecialNumbers {
             boolean isValid = (total == 5) || (total == 7) || (total == 11);
 
             if (isValid) {
-                System.out.println(i + " -> True");
+                System.out.println(current + " -> True");
             } else {
-                System.out.println(i + " -> False");
+                System.out.println(current + " -> False");
             }
             total = 0;
             i = current;
