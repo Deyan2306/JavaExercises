@@ -1,8 +1,8 @@
-package dataTypesAndVaribles;
+package dataTypesAndVariblesLab;
 
 import java.util.Scanner;
 
-public class ReversedChars {
+public class CharToString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,6 +10,6 @@ public class ReversedChars {
         char secondSymbol = scanner.nextLine().charAt(0);
         char thirdSymbol = scanner.nextLine().charAt(0);
 
-        System.out.printf("%c %c %c", thirdSymbol, secondSymbol, firstSymbol);
+        System.out.printf("%c%c%c", firstSymbol, secondSymbol, thirdSymbol);
     }
 }
