@@ -2,7 +2,7 @@ package firstStepsInCodingExercise;
 
 import java.util.Scanner;
 
-public class repainting {
+public class Repainting {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int plastic = Integer.parseInt(scanner.nextLine());

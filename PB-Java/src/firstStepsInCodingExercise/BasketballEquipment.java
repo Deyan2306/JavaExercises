@@ -2,7 +2,7 @@ package firstStepsInCodingExercise;
 
 import java.util.Scanner;
 
-public class basketballEquipment {
+public class BasketballEquipment {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double tax = Double.parseDouble(scanner.nextLine());
