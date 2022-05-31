@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fund-Java/Fund-Java.iml" filepath="$PROJECT_DIR$/Fund-Java/Fund-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaExercises.iml" filepath="$PROJECT_DIR$/JavaExercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PB-Java/PB-Java.iml" filepath="$PROJECT_DIR$/PB-Java/PB-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fund-Java/out/out.iml" filepath="$PROJECT_DIR$/Fund-Java/out/out.iml" />
+    </modules>
+  </component>
+</project>
