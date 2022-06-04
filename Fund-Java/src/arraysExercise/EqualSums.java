@@ -24,7 +24,6 @@ public class EqualSums {
                 System.out.println(index);
                 return;
             }
-
         }
 
         System.out.println("no");
