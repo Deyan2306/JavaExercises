@@ -12,6 +12,7 @@ public class CommonElements {
             for (String s : arrTwo) {
                 if (current.equals(s)) {
                     System.out.print(s + " ");
+                    break;
                 }
             }
         }
