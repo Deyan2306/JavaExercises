@@ -9,9 +9,9 @@ public class CommonElements {
         String[] arrTwo = scanner.nextLine().split(" ");
 
         for (String current : arrOne){
-            for (int i = 0; i < arrTwo.length; i++) {
-                if (current.equals(arrTwo[i])){
-                    System.out.print(arrTwo[i] + " ");
+            for (String s : arrTwo) {
+                if (current.equals(s)) {
+                    System.out.print(s + " ");
                 }
             }
         }
