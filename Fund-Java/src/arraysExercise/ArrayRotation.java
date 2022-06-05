@@ -3,22 +3,20 @@ package arraysExercise;
 import java.util.Scanner;
 
 public class ArrayRotation {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        String[] rotatable = scanner.nextLine().split(" ");
+        String[] rotateElements = scanner.nextLine().split(" ");
         int countRotations = Integer.parseInt(scanner.nextLine());
 
-        for (int i = 1; i < countRotations; i++) {
-            String firstEl = rotatable[0];
-
-            for (int j = 0; j < rotatable.length - 1; j++) {
-                rotatable[j] = rotatable[j + 1];
+        for (int i = 0; i < countRotations; i++) {
+            String firstElement = rotateElements[0];
+            for (int j = 0; j < rotateElements.length - 1; j++) {
+                rotateElements[j] = rotateElements[j + 1];
             }
-            rotatable[0] = firstEl;
+            rotateElements[rotateElements.length - 1] = firstElement;
         }
-
-        for (String el : rotatable) {
-            System.out.print(el + " ");
+        for (String currentElementToPrint : rotateElements){
+            System.out.print(currentElementToPrint + " ");
         }
     }
 }
