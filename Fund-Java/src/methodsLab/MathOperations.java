@@ -28,7 +28,6 @@ public class MathOperations {
             case '-':
                 result = firstNumber - secondNumber;
                 break;
-
         }
         return result;
     }
