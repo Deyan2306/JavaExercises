@@ -28,4 +28,20 @@ public class Student {
     public String getAge() {
         return age;
     }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public void setHomeTown(String homeTown) {
+        this.homeTown = homeTown;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 }
