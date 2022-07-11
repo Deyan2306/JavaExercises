@@ -25,6 +25,6 @@ public class Articles {
 
     @Override
     public String toString() {
-        return String.format("%s - %s: %s", title, content, author);
+        return String.format("%s - %s: %s%n", this.title, this.content, this.author);
     }
 }
