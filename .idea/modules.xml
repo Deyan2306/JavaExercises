@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Fund-Java/Fund-Java.iml" filepath="$PROJECT_DIR$/Fund-Java/Fund-Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaExercises.iml" filepath="$PROJECT_DIR$/JavaExercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/PB-Java/PB-Java.iml" filepath="$PROJECT_DIR$/PB-Java/PB-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SoftUni.iml" filepath="$PROJECT_DIR$/SoftUni.iml" />
       <module fileurl="file://$PROJECT_DIR$/Fund-Java/out/out.iml" filepath="$PROJECT_DIR$/Fund-Java/out/out.iml" />
     </modules>
   </component>
